@@ -1,20 +1,22 @@
 package com.example.timber;
 
-/** Not a real crash reporting library! */
+/**
+ * Not a real crash reporting library!
+ */
 public final class FakeCrashLibrary {
-  public static void log(int priority, String tag, String message) {
-    // TODO add log entry to circular buffer.
-  }
+	private FakeCrashLibrary() {
+		throw new AssertionError("No instances.");
+	}
 
-  public static void logWarning(Throwable t) {
-    // TODO report non-fatal warning.
-  }
+	public static void log(int priority, String tag, String message) {
+		// TODO add log entry to circular buffer.
+	}
 
-  public static void logError(Throwable t) {
-    // TODO report non-fatal error.
-  }
+	public static void logWarning(Throwable t) {
+		// TODO report non-fatal warning.
+	}
 
-  private FakeCrashLibrary() {
-    throw new AssertionError("No instances.");
-  }
+	public static void logError(Throwable t) {
+		// TODO report non-fatal error.
+	}
 }

@@ -1,0 +1,2 @@
+[{*.kt, *.java, *.xml, *.gradle, *.md, *.json, *.cpp, *.c, *.h, *.sh, *.py, *.txt}]
+indent_size = 6

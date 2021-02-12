@@ -5,25 +5,27 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.timber.R;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.example.timber.R;
 import timber.log.Timber;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
 public class DemoActivity extends Activity {
-  @Override protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.demo_activity);
-    ButterKnife.bind(this);
-    Timber.tag("LifeCycles");
-    Timber.d("Activity Created");
-  }
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.demo_activity);
+		ButterKnife.bind(this);
+		Timber.tag("LifeCycles");
+		Timber.d("本人相关背景：科班出身，曾就职于兴业银行及某500强金融集团总部，擅长基金投资，构建的基金组合收益超越99%的投资者。毫无疑问是天天基金。说实话，天天基金目前可以说是基金投资最专业的网站了。超级转换、快速赎回功能都很实用。而且基金种类齐全，申购费基本都打1折。这里声明：本人并非是给天天基金基金打广告，我是真心觉得做得比较专业。我本人的多数基金也都是在天天基金上进行购买。不过买基金最重要的是选择优秀的基金长期投资。基金选不好，在哪买基金都没用。但遗憾的是大部分人都不会挑选基金，不是看平台推荐就是追逐短期排名高的基金。而这样带来的结果只能是频频亏损。今天方法来了，本文可能是知乎上最详细、最完善的基金攻略。除了会给大家介绍不少优质的基金外，还会给大家讲解这些基金的投资逻辑，真正做到授人以鱼并且授人以渔。全文不长，7000字左右，仅仅花8分钟的时间就可能改变你一生的财富命运，所以请一定要耐心看完。看完后，如果你认可这样的干货内容，那么请双击屏幕点赞让我知道。毕竟有你的支持我写的一切才有意义。相信我，这篇文章绝对胜过你买的任何高价理财课程！一、哪些行业收益高？黄金三赛道介绍1、消费行业2、科技行业 3、医疗行业  二、新手投资的最佳选择：增强型基金1、指数增强型基金介绍 2、如何挑选增强型基金？ 3、元哥优选增强型基金三、主动基金篇1、如何挑选优秀的主动基金？ 2、优选主动基金名单 3、优质主动基金大盘点！四、补充篇：两招教你收益翻番！（1）估值策略 （2）卖出策略一、哪些行业收益高？黄金三赛道介绍市场是存在具有先天优势、长期超额收益明显的行业的。这些行业有以下特点1、ROE高（也就是盈利能力强）2、护城河深3、可以规模化、连锁化，发展空间广阔具有上述特点的行业是很容易有超额收益的。那么哪些行业符合这些特征呢？主要集中在消费、科技和医药里面。参照美股的经验，也可以看出，这三个行业超额收益最明显。消费大家应该都熟悉：典型的代表就是A股股王茅台。科技今天也很火热，我们都知道，科学技术是第一生产力。当一个国家的经济发展到一定阶段，也必须依靠科技驱动。看看美国的股市，基本是由五大科技股（脸书、苹果、亚马逊、奈飞、谷歌）引领的。至于医药：首先医药的ROE极高，并且护城河很深。并且随着中国老龄化社会的到来，医药行业大有发展。所以我把消费、科技和医药称为黄金三赛道，下面为大家逐一介绍。1、消费行业消费行业绝对是长牛行业。近五年的收益达到了惊人的263.86%！总结中美股市，十倍以上的大牛股有一半以上都是来自消费。这只要是因为消费行业有充沛的现金流，ROE高，受经济周期影响小。（1）优质消费行业基金介绍招商中证白酒指数分级（161725）易方达消费行业股票（110022）（2）配置建议我选的这两个基金都是消费板块里面非常优秀的基金。第一只是白酒基金就不说了，近5年涨幅512%，到现在为止，重仓白酒的估计早已财富自由。而易方达消费是基金经理萧楠的基金，也是位明星基金经理。业绩比较稳定，持仓大概一半白酒一百非白酒。配置建议：如果你是新手建议只买一只，易方达消费比较稳。如果你看好白酒，可以单独买招商中证白酒指数分级。2、科技行业我们都知道，科学技术是第一生产力。当一个国家的经济发展到一定阶段，也必须依靠科技驱动。看看美国的股市，基本是由五大科技股（脸书、苹果、亚马逊、奈飞、谷歌）引领的。而且科技股的成长性极高。（1）优质科技行业基金介绍华宝创新优选混合（000601）（2）配置建议很多大V推荐科技基金比如：信达奥银新能源（001410）这个基金说实话不错，不过随着规模的扩大，最近的业绩下滑比较严重。所以给大家选了一个还没被挖掘，业绩非常优秀的基金：华宝创新优选混合（000601）此外交银经济新动力混合也非常不错。其基金经理郭斐是一位非常优秀的新生代基金经理，擅长捕捉优质成长股毕业于复旦大学的他。虽然投资年限只有2.81年，但是年化回报达到了惊人的29.58%我最喜欢郭经理的一点是持仓比较均衡，攻守兼备。从目前的持仓看既有科技类新兴产业也有一些低估的大盘股。不像很多基金经理，经常全仓某一行业，这样虽然涨起来很快，跌起来也会很难受。3、医疗行业医疗行业同样是我非常看好的一个行业，也是一个非常容易出10倍大牛股的行业。主要有三个原因1、医疗行业ROE高，盈利能力强。2、护城河深。3、并且随着中国老龄化社会的到来，大家对健康的需求越来越多，医药行业大有发展。（1）优质医疗行业基金介绍中欧医疗创新股票A（006228）医疗主题的基金经理我最看好葛兰，所以就只给大家介绍这一只。为什么？");
+	}
 
-  @OnClick({ R.id.hello, R.id.hey, R.id.hi })
-  public void greetingClicked(Button button) {
-    Timber.i("A button with ID %s was clicked to say '%s'.", button.getId(), button.getText());
-    Toast.makeText(this, "Check logcat for a greeting!", LENGTH_SHORT).show();
-  }
+	@OnClick({R.id.hello, R.id.hey, R.id.hi})
+	public void greetingClicked(Button button) {
+		Timber.i("A button with ID %s was clicked to say '%s'.", button.getId(), button.getText());
+		Toast.makeText(this, "Check logcat for a greeting!", LENGTH_SHORT).show();
+	}
 }
